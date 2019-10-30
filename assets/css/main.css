@@ -7,6 +7,18 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.line1, .line2, .line3 {
+	margin-top:5px;
+	background-color: black;
+	width:50px;
+	height:3px;
+	display:block;
+	position:relative;
+	opacity:1.0;
+	border-radius:15%;
+	transition: all .3s;
+  }
+
 .dropdown {
 	z-index: 2;
 	position: absolute;
@@ -21,7 +33,7 @@
 	font-weight: bold;
   }
   .dropdown .dropdown-button:hover {
-	background-color: black;
+	background-color: grey;
   }
   .dropdown .dropdown-content {
 	width: 100%;
@@ -42,7 +54,7 @@
 	color: grey;
   }
   .dropdown .dropdown-link:hover {
-	color: #ffffff;
+	color: grey;
 	background-color: black;
   }
   .dropdown .dropdown-hidden {
