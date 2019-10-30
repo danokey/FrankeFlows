@@ -7,6 +7,90 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.dropdown {
+	z-index: 2;
+	position: absolute;
+	left: 25px;
+	cursor: pointer;
+  }
+  .dropdown .dropdown-button {
+	padding: 15px;
+	border: 3px solid white;
+	color: grey;
+	font-size: 20px;
+	font-weight: bold;
+  }
+  .dropdown .dropdown-button:hover {
+	background-color: black;
+  }
+  .dropdown .dropdown-content {
+	width: 100%;
+	position: absolute;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+	border: 2.5px solid black;
+  }
+  .dropdown .dropdown-link {
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+	font-size: 18px;
+	text-decoration: none;
+	color: grey;
+  }
+  .dropdown .dropdown-link:hover {
+	color: #ffffff;
+	background-color: black;
+  }
+  .dropdown .dropdown-hidden {
+	display: none;
+  }
+
+/* .dropdown {
+    z-index: 2;
+    position: absolute;
+    left: 25px;
+    cursor: pointer;
+    .dropdown-button {
+      padding: 15px;
+      border: 3px solid @white;
+      color: @white;
+      font-size: 20px;
+      font-weight: bold;
+      &:hover {
+        background-color: @lambda-light-red;
+      }
+    }
+    .dropdown-content {
+      width: 100%;
+      position: absolute;
+      background-color: @white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+      margin-top: 10px;
+      border: 2.5px solid @lambda-red;
+    }
+    .dropdown-link {
+      width: 100%;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 18px;
+      text-decoration: none;
+      color: @lambda-red;
+      &:hover {
+        color: @white;
+        background-color: @lambda-red;
+      }
+    }
+    .dropdown-hidden {
+      display: none;
+    }
+  } */
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -8579,3 +8663,5 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+			
